@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/g1">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_recent_videos"
+            android:icon="@drawable/recent_videos"
+            android:title="@string/menu_recent_videos" />
+        <item
+            android:id="@+id/nav_playlist"
+            android:icon="@drawable/playlist"
+            android:title="@string/menu_playlist" />
+        <item
+            android:id="@+id/nav_screen_mirroring"
+            android:icon="@drawable/screen_mirroring"
+            android:title="@string/menu_screen_mirroring" />
+        <item
+            android:id="@+id/nav_iptv"
+            android:icon="@drawable/iptv"
+            android:title="@string/menu_iptv" />
+
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/g2">
+        <item
+            android:id="@+id/nav_video"
+            android:icon="@drawable/video"
+            android:title="@string/menu_video" />
+        <item
+            android:id="@+id/nav_photo"
+            android:icon="@drawable/ic_outline_photo_size_select_actual_24"
+            android:title="@string/menu_photo" />
+        <item
+            android:id="@+id/nav_audio"
+            android:icon="@drawable/ic_baseline_audiotrack_24"
+            android:title="@string/menu_audio" />
+
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/g3">
+        <item
+            android:id="@+id/nav_google_drive"
+            android:icon="@drawable/ic_baseline_add_to_drive_24"
+            android:title="@string/menu_google_drive" />
+        <item
+            android:id="@+id/nav_google_photos"
+            android:icon="@drawable/google_photos"
+            android:title="@string/menu_google_photo" />
+
+
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/g4">
+        <item
+            android:id="@+id/nav_web"
+            android:icon="@drawable/web"
+            android:title="@string/menu_web" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_baseline_history_24"
+            android:title="@string/menu_history" />
+        <item
+            android:id="@+id/nav_bookmark"
+            android:icon="@drawable/ic_baseline_book_24"
+            android:title="@string/menu_bookmark" />
+
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/g5">
+        <item
+            android:id="@+id/nav_premium"
+            android:icon="@drawable/ic_baseline_help_24"
+            android:title="@string/menu_premium" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_baseline_help_24"
+            android:title="@string/menu_help" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_baseline_feedback_24"
+            android:title="@string/menu_feeedback" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="@string/menu_setting" />
+
+    </group>
+</menu>
